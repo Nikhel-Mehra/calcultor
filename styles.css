@@ -55,9 +55,9 @@ body {
 }
 
 .equal {
-    grid-column: span 2;
     background-color: #ff0000;
     color: white;
+    grid-column: span 2;
 }
 
 .equal:hover {
@@ -65,5 +65,9 @@ body {
 }
 
 .clear {
+    grid-column: span 2;
+}
+
+.zero {
     grid-column: span 2;
 }
