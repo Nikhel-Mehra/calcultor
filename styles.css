@@ -13,7 +13,7 @@ body {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    width: 250px;
+    width: 300px;
 }
 
 .display {
@@ -23,7 +23,7 @@ body {
     padding: 10px;
     text-align: right;
     font-size: 2em;
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -54,6 +54,15 @@ body {
     background-color: #f0f0f0;
 }
 
+.operator {
+    background-color: #ff8000;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #ff9933;
+}
+
 .equal {
     background-color: #ff0000;
     color: white;
@@ -61,7 +70,7 @@ body {
 }
 
 .equal:hover {
-    background-color: #ff0000;
+    background-color: #e60000;
 }
 
 .clear {
