@@ -11,6 +11,7 @@
         <div class="display" id="display">0</div>
         <div class="buttons">
             <button class="button clear" onclick="clearDisplay()">AC</button>
+            <button class="button" onclick="deleteDigit()">DEL</button>
             <button class="button" onclick="setOperator('/')">/</button>
             <button class="button" onclick="inputDigit(7)">7</button>
             <button class="button" onclick="inputDigit(8)">8</button>
@@ -24,7 +25,7 @@
             <button class="button" onclick="inputDigit(2)">2</button>
             <button class="button" onclick="inputDigit(3)">3</button>
             <button class="button" onclick="setOperator('+')">+</button>
-            <button class="button" onclick="inputDigit(0)">0</button>
+            <button class="button zero" onclick="inputDigit(0)">0</button>
             <button class="button equal" onclick="calculate()">=</button>
         </div>
     </div>
