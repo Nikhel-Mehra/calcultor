@@ -11,6 +11,13 @@ function inputDigit(digit) {
     updateDisplay();
 }
 
+function inputDecimal() {
+    if (!currentInput.includes('.')) {
+        currentInput += '.';
+    }
+    updateDisplay();
+}
+
 function setOperator(nextOperator) {
     if (operator !== null) {
         calculate();
@@ -54,6 +61,14 @@ function clearDisplay() {
     currentInput = '0';
     operator = null;
     previousInput = null;
+    updateDisplay();
+}
+
+function deleteDigit() {
+    currentInput = currentInput.slice(0, -1);
+    if (currentInput === '') {
+        currentInput = '0';
+    }
     updateDisplay();
 }
 
